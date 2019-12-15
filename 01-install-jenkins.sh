@@ -16,3 +16,4 @@ sudo systemctl start jenkins.service
 sudo systemctl enable jenkins.service
 sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
 sudo firewall-cmd --reload
+sudo systemctl status jenkins.service
